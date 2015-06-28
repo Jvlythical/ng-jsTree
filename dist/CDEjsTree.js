@@ -18,7 +18,7 @@ function($rootScope, $parse, CDEjsTreeEvents) {
 	return {
 		restrict : 'E',
 		link : function(scope, element, attrs) {
-
+console.log(scope)
 			var $target = $('#' + attrs.target);
 
 			CDEjsTreeEvents.init({
